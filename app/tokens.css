@@ -1,0 +1,31 @@
+/* Gegenereerd uit design-system/tokens.json. Niet met de hand wijzigen. */
+:root {
+  --color-ink: #15131a;
+  --color-body: #55525c;
+  --color-muted: #8a8791;
+  --color-line: #ebe8ef;
+  --color-bg: #fbfaf8;
+  --color-card: #ffffff;
+  --color-soft: #f6f2fb;
+  --color-navy: #2c2a5a;
+  --color-accent: #8b5cf6;
+  --color-accent-strong: #6d3fe0;
+  --color-pink: #ff4fa3;
+  --color-orange: #ff6a3d;
+  --color-danger: #c2264b;
+  --color-success: #1f7a55;
+  --color-white: #ffffff;
+  --gradient-glow: radial-gradient(120% 95% at 20% 110%, #ff6a3d 0%, #ff4fa3 36%, #8b5cf6 66%, #2c2a5a 100%);
+  --gradient-line: linear-gradient(90deg, #ff6a3d, #ff4fa3 45%, #8b5cf6);
+  --font-display: "Bricolage Grotesque", "Inter", system-ui, sans-serif;
+  --font-text: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --radius-card: 22px;
+  --radius-field: 14px;
+  --radius-pill: 99px;
+  --space-xs: 6px;
+  --space-sm: 12px;
+  --space-md: 22px;
+  --space-lg: 36px;
+  --space-xl: 64px;
+}

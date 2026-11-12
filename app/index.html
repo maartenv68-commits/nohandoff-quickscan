@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quickscan · Waar staat jouw team met AI? · No Handoff</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Netlify Forms: statische kopie zodat Netlify het formulier herkent bij deploy -->
+  <form name="quickscan" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input name="email"><input name="niveau"><input name="scores"><input name="toestemming"><input name="bot-field">
+  </form>
+
+  <header class="top">
+    <a class="logo" href="/"><s>No</s> Handoff</a>
+  </header>
+
+  <main id="app" class="wrap" aria-live="polite"></main>
+
+  <noscript><p class="wrap">De quickscan heeft JavaScript nodig.</p></noscript>
+  <script type="module" src="quickscan.js"></script>
+</body>
+</html>
