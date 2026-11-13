@@ -21,7 +21,7 @@ op welk van de vier AI-niveaus hun team staat, met één concrete volgende stap.
 | `discovery/` | Onderzoeksplan, (geanonimiseerde) notities, inzichten | Designer |
 | `product/FEAT-xxx/` | Intentie, spec, Figma-links per feature | Designer + developer |
 | `decisions/` | Beslislog en archief | Alleen mensen |
-| `prompts/` | Vaste prompts P0–P6 en de sessiestart | Eigenaar per prompt |
+| `prompts/` | Vaste prompts P0–P7 en de sessiestart | Eigenaar per prompt |
 | `design-system/` | Tokens (W3C-formaat) en componentafspraken | Design lead |
 | `app/` | De werkende quickscan (HTML, CSS, JS, geen build nodig) | Developer of agent |
 | `tests/` | Een test per acceptatiecriterium | Developer of agent |
