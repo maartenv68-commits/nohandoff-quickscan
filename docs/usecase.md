@@ -1,5 +1,7 @@
 # Use case · No Handoff Quickscan
 
+> **Voor mensen.** Agents werken vanuit AGENTS.md, de spec en de beslislog; alles wat een agent moet weten, hoort daar te staan.
+
 Van probleem tot werkend ecosysteem, volgens het handboek *Herkennen → Inrichten → Bewijzen → Verankeren*.
 Dit document is de rode draad. Elke iteratie voeg je onderaan toe onder **Iteraties**.
 
@@ -74,7 +76,7 @@ Volg deze volgorde de eerste keer. Elke stap duurt 5–15 minuten.
 | Tokens overgenomen van de live site nohandoff.nl | Geen Figma-bibliotheek (kijkplaats, B-002) |
 | Prompts P0–P6 uitgeschreven | Prompts nog niet in een echte sessie op dit project gedraaid |
 | | Netlify-formulier nog niet live getest (formulierdetectie stond uit) |
-| | Besluiten B-001 t/m B-005 nog niet door Maarten bevestigd |
+| | B-003, B-004 en B-005 nog voorstel: wachten op besluit van Maarten |
 
 ## 6. Verankeren: eigenaren en ritme
 | Wat | Eigenaar | Ritme |
@@ -90,6 +92,9 @@ Elke iteratie volgt dezelfde vorm: **aanleiding → spec-diff → besluit → ag
 
 ### Iteratie 0 · 12-11-2026 · opzet
 Aanleiding: project opgezet volgens het handboek. Resultaat: deze repo, concept-spec v1.0, werkende quickscan.
+
+### Iteratie 0.1 · 13-11-2026 · besluiten met bron
+Aanleiding: besluiten stonden in de beslislog zonder dat te zien was wie ze nam. Resultaat: prompt P7, veld "bron", B-001/B-002 actief, B-003 t/m B-005 voorstel (B-006).
 
 ### Voorstellen voor iteratie 1 (kies er één)
 - **Na de gesprekken:** pas vragen of antwoorden aan op wat design leads niet snappen. Raakt `app/vragen.js` en spec §8.
